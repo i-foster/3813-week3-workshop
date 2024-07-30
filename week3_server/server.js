@@ -17,7 +17,6 @@ app.get('/test', function (req, res) {
     res.sendFile(__dirname + '/www/test.html');
     });
 
-
 app.get('/login', function (req, res) {
     res.sendFile(__dirname + '/www/login.html');
     });
