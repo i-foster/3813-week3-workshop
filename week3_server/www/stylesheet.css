@@ -7,3 +7,17 @@ h2{
 .labels{
     color: blue;
 }
+
+h1{
+    color: pink;
+}
+
+.sucess{
+    background-color: green;
+    padding: 1em;
+}
+
+.fail{
+    background-color: red;
+    padding: 1em;
+}
