@@ -20,12 +20,12 @@ function ajaxPost(){
         success :  function(user){
             if (user.valid  == true ){
                 console.log("customer details worked");
-                $("form1").removeClass("Fail");
-                $("form1").addClass("success");
+                $("errorMessage").removeClass("showmessage");
+                $("errorMessage").addClass("hideMessage");
             }else{
-                $("form1").addClass("Fail");
-                $("form1").removeClass("success");
                 console.log("customer details did not match");
+                $("errorMessage").addClass("showmessage");
+                $("errorMessage").removeClass("hideMessage");
             }
         },
         error: function(e){

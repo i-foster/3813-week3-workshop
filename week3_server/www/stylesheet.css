@@ -21,3 +21,9 @@ h1{
     background-color: red;
     padding: 1em;
 }
+
+.hideMessage{
+    display:none;
+    }
+.showmessage{
+    display:block;}
